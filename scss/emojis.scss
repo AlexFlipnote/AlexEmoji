@@ -1,0 +1,11 @@
+@import 'credits';
+@import 'emoji-map';
+
+@import 'emoji-style';
+
+
+@each $name, $code in $emoji-map {
+  .alex-#{$name} {
+    background-image: url("https://emojis.alexflipnote.dev/images/#{$code}");
+  }
+}
