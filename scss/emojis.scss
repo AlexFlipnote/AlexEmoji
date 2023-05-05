@@ -5,7 +5,7 @@
 
 
 @each $name, $code in $emoji-map {
-  .alex-#{$name} {
+  .#{$name} {
     background-image: url("https://emojis.alexflipnote.dev/images/#{$code}");
   }
 }
